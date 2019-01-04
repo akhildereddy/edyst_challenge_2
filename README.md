@@ -6,7 +6,7 @@ Before we describe the urls lets start Flask and rq workers
 
 ## Starting Flask:
 FLASK_APP=hello.py flask run
-
+flask initdb
 ## Starting rq worker:
 rq worker
 
