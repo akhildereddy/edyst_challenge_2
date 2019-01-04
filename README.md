@@ -5,7 +5,7 @@ This applications assumes that Redis queues are already install with default Con
 Before we describe the urls lets start Flask and rq workers
 
 ## Starting Flask:
-FLASK_APP=hello.py flask run
+FLASK_APP=hello.py flask run <br />
 flask initdb
 ## Starting rq worker:
 rq worker
