@@ -1,0 +1,28 @@
+<!doctype html>
+<title>Hello from Stranger</title>
+<table>
+    <tr>
+        <th>
+            Url
+        </th>
+        <th>
+            Count
+        </th>
+    </tr>
+    {% for item in results%}
+        <tr>
+            {% for val in item%}
+            <td>
+                {{val}}
+            </td>
+            {% endfor%}
+        </tr>
+    {% endfor %}
+
+    <h3>Make new request</h3>
+    <form action = "http://localhost:5000/" method = "post">
+        <p>Enter URL:</p>
+        <p><input type = "text" name = "url" /></p>
+        <p><input type = "submit" value = "submit" /></p>
+     </form>
+</table>

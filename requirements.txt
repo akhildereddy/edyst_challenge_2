@@ -1,0 +1,6 @@
+flask
+flask-rq
+rq
+SQLAlchemy
+Flask-SQLAlchemy
+requests
